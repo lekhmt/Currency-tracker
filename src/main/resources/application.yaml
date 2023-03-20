@@ -1,0 +1,10 @@
+invest-api-token: "place token here"
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://mel.db.elephantsql.com:5432/ylbylgwb
+    username: ylbylgwb
+    password: Z3mYLcwEuMNaMxyT3egqKJ1zpFLHZ_Bg
+  flyway:
+    locations: classpath:db.migration
